@@ -1,0 +1,132 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Martian Mono', monospace;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background-color: #c8d6bf;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 0 1.2rem 5rem 1.2rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e3dfba;
+  border-bottom: .4rem solid #93ccc6;
+  color: #fff;
+  font-size: 2rem;
+}
+
+header a {
+  color: #fff;
+  transition: all .3s;
+}
+
+header a:hover {
+  color: #1a1f1e;
+}
+.show-senha{
+  background-color: #6cbdb5;
+  padding: 1.2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  border-radius: .8rem;
+}
+
+.container {
+  margin-top: 12rem;
+  background-color: #fff;
+  padding: 3.6rem 2.4rem;
+  border-radius: .8rem;
+  border-top: .4rem solid #93ccc6;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+
+div p {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+}
+
+li small {
+  display: block;
+}
+
+.btn-gerar-senha {
+  display: block;
+  margin-top: 2.4rem;
+  width: 100%;
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  border-radius: .8rem;
+  color: #fff;
+  background: #1a1f1e;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn-gerar-senha:hover {
+  opacity: .7;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.2rem;
+}
+
+input[type="number"] {
+  width: 6rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: .4rem;
+  outline: none;
+  appearance: none;
+  font-size: 1.6rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/favicon.ico">
+  <script src="./assets/main.js" defer></script>
+  <title>Gerador de senhas</title>
+</head>
+
+<body>
+  <header>
+    <span>by Gabriel</span>
+    <a href="https://github.com/gbmouraa">GitHub</a>
+  </header>
+  <section class="container">
+    <div>
+      <h1>Gerador de senhas</h1>
+      <span class="senha-gerada"></span>
+      <p>Selecione o que deseja inserir na sua senha:</p>
+    </div>
+    <form>
+      <ul>
+        <li>
+          <label for="qtd-caracteres">
+            Quantidade de caracteres
+            <input type="number" value="6" max="20" min="6" id="qtd-caracteres">
+            <small>(minimo de 6 e máximo de 20 caracteres)</small>
+          </label>
+        </li>
+        <li>
+          <label for="inp-maiusculas">
+            Inserir letras maiusculas
+          </label>
+          <input type="checkbox" id="inp-maiusculas" checked>
+        </li>
+        <li>
+          <label for="inp-minusculas">
+            Inserir letras minusculas
+          </label>
+          <input type="checkbox" id="inp-minusculas">
+        </li>
+        <li>
+          <label for="inp-nums">
+            Inserir números
+          </label>
+          <input type="checkbox" id="inp-nums" checked>
+        </li>
+        <li>
+          <label for="inp-simbolos">
+            Inserir simbolos
+          </label>
+          <input type="checkbox" id="inp-simbolos">
+        </li>
+      </ul>
+      <button class="btn-gerar-senha" type="submit">Gerar senha</button>
+    </form>
+  </section>
+</body>
+
+</html>
