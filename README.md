@@ -21,6 +21,10 @@ Projeto simples para treinar minhas skills em Js, neste projeto é possivel cria
 
 #### Autor
 
-Linkedin - ![Gabriel Moura](https://www.linkedin.com/in/gabriel-moura-b63382161/)
+Linkedin - [Gabriel Moura](https://www.linkedin.com/in/gabriel-moura-b63382161/)
 
-Frontend Mentor -  ![@gbmouraa](https://www.frontendmentor.io/profile/gbmouraa)
+Frontend Mentor -  [@gbmouraa](https://www.frontendmentor.io/profile/gbmouraa)
+
+Link do repo - [https://github.com/gbmouraa/gerador_de_senhas](https://github.com/gbmouraa/gerador_de_senhas)
+
+Link do site - [https://gbmoura-gera-senha.netlify.app/](https://gbmoura-gera-senha.netlify.app/)
